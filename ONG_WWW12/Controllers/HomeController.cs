@@ -15,14 +15,14 @@ namespace ONG_WWW12.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "ONG PAGINA WEB ACERCA DE:";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "ONG PAGINA WEB CONTACTO:";
 
             return View();
         }
